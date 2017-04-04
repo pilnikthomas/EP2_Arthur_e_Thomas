@@ -5,7 +5,7 @@ Created on Tue Mar 28 16:42:05 2017
 @author: arthu
 """
 
-
+# EP2_Arthur_e_Thomas
 
 import sys,time,random
 nv = 1
