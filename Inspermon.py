@@ -18,19 +18,24 @@ expfill = 30
 exp = 0
 
             
-thomasmon = [0]*5
+thomasmon = [0]*10
 thomasmon[1] = 50
 thomasmon[2] = 40
 thomasmon[3] = 10
 thomasmon[0] = "Thomasmon"
 thomasmon[4] = 50 #Vida full
+thomasmon[5] = "Cortar"
+thomasmon[6] = 50 + random.randint(1,20)
+thomasmon[7] = "Ataque de fogo"
+thomasmon[8] = 100 + random.randint(5,40)
+thomasmon[9] = 0.3
 
 pkm2 = [0]*10
-pkm2[1] = 100
+pkm2[1] = 80
 pkm2[2] = 20
 pkm2[3] = 10
 pkm2[0] = "Lalamon"
-pkm2[4] = 50 #Vida full
+pkm2[4] = 80 #Vida full
 pkm2[5] = "Rajada de água"
 pkm2[6] = 20 + random.randint(1,20)
 pkm2[7] = "Boma de água"
