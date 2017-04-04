@@ -66,14 +66,23 @@ def batalha(p1,p2):
     slow_type(("Batalha!!{} versus {}\n\n").format(p1[0],p2[0]))
     slow_type(("{} - Vida:{}/{} Ataque:{} Defesa:{}\n").format(p1[0],p1[1],p1[4],p1[2],p1[3]))
     slow_type(("{} - Vida:{}/{} Ataque:{} Defesa:{}\n\n").format(p2[0],p2[1],p2[4],p2[2],p2[3]))    
-    p2[1] = p2[1] + p2[3]- p1[2]  #Vida do pokemon 2 - atk do 1
-    p1[1] = p1[1] + p1[3]- p2[2]  #Vida do pokemon 1 - atk do 2
+    atk = p1[2]- p2[3]
+    if atk < 0:
+        atk = 0
+        fast_type("Seu ataque não foi muito efetivo")
+    p2[1] = p2[1] -atk  #Vida do pokemon 2 - atk do 1
+    atk = p2[2]- p1[3]
+    if atk < 0:
+        atk = 0
+        fast_type(("O ataque de {} não foi efetivo!").format(p2[0]))
+    p1[1] = p1[1] - atk  #Vida do pokemon 1 - atk do 2
     slow_type("Resultado da batalha...\n")
     time.sleep(0.6)
     if p1[1] > p2[1]:
         slow_type("Você ganhou!\n")
         slow_type(("Seu Inspermon ainda tem {} de vida\n").format(p1[1]))
         a = 1
+        p2[1] = p2[4]
     else:
         slow_type("Você perdeu... Marcos Lisboa tem vergonha de você :(\n")
         a = 0
@@ -107,7 +116,7 @@ while True:
         if nummon == 0:
             slow_type("Você não tem nenhum Inspermon! Não pode ir explorar ainda!")
         else:
-            d = 8 #distance of steps to another city
+            d = 200 #distance of steps to another city
             slow_type("Agora você está nas traiçoeiras matas selvagens da avenida Santo Amaro\n")
             time.sleep(0.5)
             slow_type(("Tome cuidado,{}").format(name))
@@ -131,16 +140,16 @@ while True:
                             if bat == 1:
                                 thomasmon[1] = thomasmon[4]
                                 exp = exp +10
-                                fast_type(("Você ganhou {} de exp! Falta {} para o próximo nível!").format(10,expfill - exp))
+                                fast_type(("Você ganhou {} de exp! Falta {} para o próximo nível!\n").format(10,expfill - exp))
                                 if exp >= expfill:
                                     exp = 0
                                     expfill = expfill*1.5
                                     nv = nv + 1
                                     
-                                    mon[1] = mon[1] + mon[1]*nv/2
-                                    mon[2] = mon[2] + mon[2]*nv/3
+                                    mon[1] = mon[1] + mon[1]*nv/4
+                                    mon[2] = mon[2] + mon[2]*nv/4
                                     mon[3] = mon[3] + mon[3]*nv/2
-                                    mon[4] = mon[4] + mon[4]*nv/2
+                                    mon[4] = mon[4] + mon[4]*nv/4
                                     slow_type(("Você passou de nível! Agora {} está nível {}!").format(mon[0],nv))
                                     
                                 
