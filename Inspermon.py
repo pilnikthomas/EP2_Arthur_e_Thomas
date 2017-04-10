@@ -9,39 +9,39 @@ Created on Tue Mar 28 16:42:05 2017
 
 import sys,time,random
 nv = 1
-mon = [0]*5
-mon[1] = 150 #vida
-mon[2] = 50 #ataque
-mon[3] = 20 #defesa
-mon[4] = 150 #Vidafull
+
 expfill = 30
 exp = 0
 
             
-thomasmon = [0]*10
-thomasmon[1] = 50
-thomasmon[2] = 40
-thomasmon[3] = 10
-thomasmon[0] = "Thomasmon"
-thomasmon[4] = 50 #Vida full
-thomasmon[5] = "Cortar"
-thomasmon[6] = 50 + random.randint(1,20)
-thomasmon[7] = "Ataque de fogo"
-thomasmon[8] = 100 + random.randint(5,40)
-thomasmon[9] = 0.3
 
-pkm2 = [0]*10
-pkm2[1] = 80
-pkm2[2] = 20
-pkm2[3] = 10
-pkm2[0] = "Lalamon"
-pkm2[4] = 80 #Vida full
-pkm2[5] = "Rajada de água"
-pkm2[6] = 20 + random.randint(1,20)
-pkm2[7] = "Boma de água"
-pkm2[8] = 90 + random.randint(5,50)
-pkm2[9] = 0.3
 
+
+    
+    
+class pokemon(object):
+    def __init__(self,nome,vida,vidat,atk1,atk2,defesa):
+        self.nome = nome
+        self.vida = vida
+        self.vidat = vidat
+        self.atk1 = atk1
+        self.atk2 = atk2
+        self.defesa = defesa
+        self.nome_atk1 = nome_atk1
+        self.nome_atk2 = nome_atk2
+
+mon = []
+       
+mon1 = pokemon("Thomasmon",100,100,30,55,20,"Bola de fogo","Lança-fogo")
+mon2 = pokemon("Dilmon",130,130,40,60,10,"Golpe fatal","Cortar")
+mon3 = pokemon("Arielmon",80,80,30,20,10,"Cortar","fogo")
+mon4 = pokemon("Omakamon",130,130,30,40,18,"Chute","Lança de fogo")
+
+
+mon.append(mon1)
+mon.append(mon2)
+mon.append(mon3)
+mon.append(mon4)
 
 typing_speed = 130 #wpm
 def slow_type(t):
@@ -50,45 +50,67 @@ def slow_type(t):
         sys.stdout.flush()
         time.sleep(random.random()*10.0/typing_speed)
         
-quick_speed = 1400        
+quick_speed = 1400       
 def fast_type(t):
     for l in t:
         sys.stdout.write(l)
         sys.stdout.flush()
         time.sleep(random.random()*10.0/quick_speed)
 
-def battle():
-    print("Batalha!! \n")
-    a=1
+
+
+def batalha1(p1,p2):
+    slow_type(("Batalha!!{} versus {}\n\n").format(p1.nome,p2.nome))
+    slow_type(("{} - Vida:{}/{} Defesa:{}\n").format(p1.nome,p1.vida,p1.vidat,p1.atk1,p1.defesa))
+    slow_type(("{} - Vida:{}/{} Defesa:{}\n\n").format(p2.nome,p2.vida,p2.vidat,p2.atk1,p2.defesa))    
+    x = 0
+    while x == 0:
+        batresp = str(input(fast_type((" {}(A)\n {}(B)\n Fugir(F)\n").formtat(p1.nome_atk1,p1.nome_atk2))))
+        if batresp == "a" or batresp == "A":
+            atkdoplayer = p1.atk1
+        if batresp == "b" or batresp == "B":
+            atkdoplayer = p1.atk2
+        if batresp == "f" or batresp == "F":
+            fugir = random.randint(1,10)
+            if fugir >=6:
+                slow_type("Você conseguiu fugir!\n")
+                a = 1
+                x = 1
+                return a
+            else:
+                slow_type("Você não conseguiu fugir!\n")
+                atkdoplayer = 0
+                time.sleep(0.3)
+        
+        atk = atkdoplayer - p2.defesa
+        if atk < 0:
+            atk = 0
+            fast_type("Seu ataque não foi muito efetivo\n")
+        p2.vida = p2.vida - atk #Vida do pokemon 2 - atk do 1
+        fast_type(("Você deu {} de dano. {} ainda tem {} de vida!\n").format(atk,p2.nome,p2.vida))
+        
+        time.sleep(0.3)
+        atk = p2.atk1- p1.defesa
+        if atk < 0:
+            atk = 0
+            fast_type(("O ataque de {} não foi efetivo!\n").format(p2[0]))
+        p1.vida = p1.vida - atk  #Vida do pokemon 1 - atk do 2
+        fast_type(("{} deu {} de dano! Você ainda tem {} de vida!\n").format(p2.nome,atk,p1.vida))
+        if p1.vida <= 0:
+            slow_type("Resultado da batalha...\n")
+            slow_type("Você perdeu... Marcos Lisboa tem vergonha de você :(\n")
+            a = 0
+            x=1
+       
+        if p2.vida <= 0:
+            slow_type("Você ganhou!\n")
+            slow_type(("Seu Inspermon ainda tem {} de vida\n").format(p1.vida))
+            a = 1
+            x=1
+            p2.vida = p2.vidat
+        
     return a
 
-def batalha(p1,p2):
-    slow_type(("Batalha!!{} versus {}\n\n").format(p1[0],p2[0]))
-    slow_type(("{} - Vida:{}/{} Ataque:{} Defesa:{}\n").format(p1[0],p1[1],p1[4],p1[2],p1[3]))
-    slow_type(("{} - Vida:{}/{} Ataque:{} Defesa:{}\n\n").format(p2[0],p2[1],p2[4],p2[2],p2[3]))    
-    atk = p1[2]- p2[3]
-    if atk < 0:
-        atk = 0
-        fast_type("Seu ataque não foi muito efetivo")
-    p2[1] = p2[1] -atk  #Vida do pokemon 2 - atk do 1
-    atk = p2[2]- p1[3]
-    if atk < 0:
-        atk = 0
-        fast_type(("O ataque de {} não foi efetivo!").format(p2[0]))
-    p1[1] = p1[1] - atk  #Vida do pokemon 1 - atk do 2
-    slow_type("Resultado da batalha...\n")
-    time.sleep(0.6)
-    if p1[1] > p2[1]:
-        slow_type("Você ganhou!\n")
-        slow_type(("Seu Inspermon ainda tem {} de vida\n").format(p1[1]))
-        a = 1
-        p2[1] = p2[4]
-    else:
-        slow_type("Você perdeu... Marcos Lisboa tem vergonha de você :(\n")
-        a = 0
-    return a
-        
-        
 
 
 fast_type("""\  
@@ -112,10 +134,22 @@ opt_jgl = "\n Andar(A) \n Voltar para a cidade(V) \n Dormir...aqui(D) \n"
 
 while True:
     ans = str(input(opt_city))
+    if ans == "F" or ans == "f":
+        if nummon == 0:
+            nomemon = name + "mon"
+            slow_type("Parece que o professor tem algo para você! Oh, é um Inspermon!\n")
+            slow_type(("Olá,{}! Vim te entregar esse Inspermon para você sair em sua jornada!\n").format(name))
+            slow_type(("Você rebebeu um {}!\n").format(nomemon))
+            
+            startmon = pokemon(nomemon,100,100,60,70,25,"Lança de fogo","Chute")
+            time.sleep(1)
+            slow_type(("{}, agora você é um mestre Inspermon!").format(name))
+            fast_type(("Vá explorar!"))
+            nummon = nummon + 1
     if ans == "P" or ans == "p":
         if nummon == 0:
             slow_type("Você não tem nenhum Inspermon! Não pode ir explorar ainda!")
-        else:
+        if nummon == 1:
             d = 200 #distance of steps to another city
             slow_type("Agora você está nas traiçoeiras matas selvagens da avenida Santo Amaro\n")
             time.sleep(0.5)
@@ -132,13 +166,11 @@ while True:
                     else:
                         r = random.random()
                         if r >= 0.4:
-                            wpkm = random.randint(1,2) #which pokemon?
-                            if wpkm == 1: adversario = thomasmon
-                            if wpkm == 2: adversario = pkm2
-                            bat = batalha(mon,adversario)
+                            adver = random.choice(mon)
+                            bat = batalha1(startmon,adver)
                             
                             if bat == 1:
-                                thomasmon[1] = thomasmon[4]
+                                
                                 exp = exp +10
                                 fast_type(("Você ganhou {} de exp! Falta {} para o próximo nível!\n").format(10,expfill - exp))
                                 if exp >= expfill:
@@ -146,11 +178,7 @@ while True:
                                     expfill = expfill*1.5
                                     nv = nv + 1
                                     
-                                    mon[1] = mon[1] + mon[1]*nv/4
-                                    mon[2] = mon[2] + mon[2]*nv/4
-                                    mon[3] = mon[3] + mon[3]*nv/2
-                                    mon[4] = mon[4] + mon[4]*nv/4
-                                    slow_type(("Você passou de nível! Agora {} está nível {}!").format(mon[0],nv))
+                                    slow_type(("Você passou de nível! Agora {} está nível {}!").format(startmon.nome,nv))
                                     
                                 
                             if bat == 0:
@@ -158,7 +186,7 @@ while True:
                                 sys.exit()
                                 
                 if cmd == "V" or cmd == "v":
-                    mon[1] = mon[4]
+                    startmon.vida = startmon.vidat
                     x = 1
                 if cmd == "D" or cmd == "d":
                     print("Okay. Tchau")
@@ -166,18 +194,7 @@ while True:
                     
             
             
-    if ans == "F" or ans == "f":
-        if nummon == 0:
-            nomemon = name + "mon"
-            slow_type("Parece que o professor tem algo para você! Oh, é um Inspermon!\n")
-            slow_type(("Olá,{}! Vim te entregar esse Inspermon para você sair em sua jornada!\n").format(name))
-            slow_type(("Você rebebeu um {}!\n").format(nomemon))
-            
-            mon[0] = nomemon
-            time.sleep(1)
-            slow_type(("{}, agora você é um mestre Inspermon!").format(name))
-            fast_type(("Vá explorar!"))
-            nummon = nummon + 1
+    
         else:
             slow_type("Você ja passou por aqui!")
     if ans == "D" or ans == "d":
