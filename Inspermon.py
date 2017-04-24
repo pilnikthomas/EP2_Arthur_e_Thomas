@@ -36,7 +36,13 @@ mon.append(pokemon("Dilmon",130,130,40,60,10,"Golpe fatal","Cortar",1))
 mon.append(pokemon("Arielmon",80,80,30,20,10,"Cortar","fogo",1))
 mon.append(pokemon("Omakamon",130,130,30,40,18,"Chute","Lança de fogo",1))
 mon.append(pokemon("Lalamon",100,100,20,50,12,"Golpe furioso","Ataque do ganso",1))
-
+mon.append(pokemon("Blablamon",80,80,20,30,10,"Chute","Golpe fatal",1))
+mon.append(pokemon("Digimon",80,80,30,20,10,"Cortar","fogo",1))
+mon.append(pokemon("Xinipsimon",80,80,30,20,10,"Cortar","fogo",1))
+mon.append(pokemon("Lulumon",90,90,30,20,10,"Chuva de fogo","Soco",1))
+mon.append(pokemon("Temermon",80,80,50,20,10,"Cortar","Chute",1))
+mon.append(pokemon("Xaxamon",80,80,60,20,10,"Golpeada","fogo",1))
+mon.append(pokemon("Lolomon",50,50,80,20,10,"Cortar","fogo",1))
 
 typing_speed = 230
 def slow_type(t):
@@ -55,8 +61,8 @@ def fast_type(t):
 insperdex_list = []
 
 def batalha1(p1,p2):
-    if p2 not in insperdex_list:
-        insperdex_list.append(p2)
+    if p2.nome not in insperdex_list:
+        insperdex_list.append(p2.nome)
     slow_type(("Batalha!!{} versus {}\n\n").format(p1.nome,p2.nome))
     time.sleep(0.2)
     slow_type(("{} - Vida:{}/{} Defesa:{} Level:{} \n").format(p1.nome,p1.vida,p1.vidat,p1.defesa,p1.nv))
@@ -167,7 +173,11 @@ if primeirapergunta == "C" or primeirapergunta == "c":
         startmon.nv=listsave[8]
         name = listsave[9]
         city_count = listsave[10]
-        
+        if len(listsave) > 11:
+            for i in range(11,len(listsave)):
+                insperdex_list.append(listsave[i])
+
+
         nummon = 1
         slow_type(("\n Bem vindo de volta,{}\n").format(name))
         time.sleep(0.5)
@@ -187,7 +197,7 @@ if primeirapergunta == "N" or primeirapergunta == "n":
 
 
 slow_type(("OK! {}, você está na cidade {}. Você pode passear livremente aqui! \n O que deseja fazer?".format(name,city_count)))
-opt_jgl = "\n Andar(A) \n Voltar para a cidade(V) \n Abrir Insperdex(I) \n Dormir...aqui(D) \n Salvar o jogo \n "
+opt_jgl = "\n Andar(A) \n Voltar para a cidade(V) \n Abrir Insperdex(I) \n Dormir...aqui(D) \n Salvar o jogo(S) \n "
 print("\n Dicas: Passe no Fablab antes de ir à floresta para pegar seu Inspermon! Ele evolui pela primeira vez no nível 5 e depois no nível 10")
 while True:
     ans = str(input("O que deseja fazer?\n Ir para a floresta(P)\n Ir para o Fablab(F)\n Dormir(D) \n Salvar(S) \n "))
@@ -223,7 +233,7 @@ while True:
                     else:
                         for j in range(len(mon)):
                             if j < len(insperdex_list):
-                                print(("|{}|\n").format(insperdex_list[j].nome))
+                                print(("|{}|\n").format(insperdex_list[j]))
                             else:
                                 print("|???|\n")
 
@@ -284,6 +294,10 @@ while True:
                     sys.exit() #Fecha o sistema
                 if cmd == "S" or cmd == "s":
                     listsave = [startmon.nome,startmon.vida,startmon.vidat,startmon.atk1,startmon.atk2,startmon.defesa,startmon.nome_atk1,startmon.nome_atk2,startmon.nv,name,city_count]
+                    if len(insperdex_list) > 0:
+                        for i in range(len(insperdex_list)):
+                            listsave.append(insperdex_list[i])
+
                     with open("save.json","w") as archive:
                             json.dump(listsave,archive)
                             time.sleep(0.5)
@@ -294,6 +308,11 @@ while True:
         break
     if ans == "S" or ans == "s":
          listsave = [startmon.nome,startmon.vida,startmon.vidat,startmon.atk1,startmon.atk2,startmon.defesa,startmon.nome_atk1,startmon.nome_atk2,startmon.nv,name,city_count]
+         if len(insperdex_list) > 0:
+             for i in range(len(insperdex_list)):
+                 listsave.append(insperdex_list[i])
+
+
          with open("save.json","w") as archive:
              json.dump(listsave,archive)
              time.sleep(0.5)
