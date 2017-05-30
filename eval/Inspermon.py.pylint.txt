@@ -1,0 +1,941 @@
+************* Module Inspermon
+C: 10, 0: Exactly one space required after comma
+import sys,time,random
+          ^ (bad-whitespace)
+C: 10, 0: Exactly one space required after comma
+import sys,time,random
+               ^ (bad-whitespace)
+C: 19, 0: Exactly one space required after comma
+    def __init__(self,nome,vida,vidat,atk1,atk2,defesa,nome_atk1,nome_atk2,nv):
+                     ^ (bad-whitespace)
+C: 19, 0: Exactly one space required after comma
+    def __init__(self,nome,vida,vidat,atk1,atk2,defesa,nome_atk1,nome_atk2,nv):
+                          ^ (bad-whitespace)
+C: 19, 0: Exactly one space required after comma
+    def __init__(self,nome,vida,vidat,atk1,atk2,defesa,nome_atk1,nome_atk2,nv):
+                               ^ (bad-whitespace)
+C: 19, 0: Exactly one space required after comma
+    def __init__(self,nome,vida,vidat,atk1,atk2,defesa,nome_atk1,nome_atk2,nv):
+                                     ^ (bad-whitespace)
+C: 19, 0: Exactly one space required after comma
+    def __init__(self,nome,vida,vidat,atk1,atk2,defesa,nome_atk1,nome_atk2,nv):
+                                          ^ (bad-whitespace)
+C: 19, 0: Exactly one space required after comma
+    def __init__(self,nome,vida,vidat,atk1,atk2,defesa,nome_atk1,nome_atk2,nv):
+                                               ^ (bad-whitespace)
+C: 19, 0: Exactly one space required after comma
+    def __init__(self,nome,vida,vidat,atk1,atk2,defesa,nome_atk1,nome_atk2,nv):
+                                                      ^ (bad-whitespace)
+C: 19, 0: Exactly one space required after comma
+    def __init__(self,nome,vida,vidat,atk1,atk2,defesa,nome_atk1,nome_atk2,nv):
+                                                                ^ (bad-whitespace)
+C: 19, 0: Exactly one space required after comma
+    def __init__(self,nome,vida,vidat,atk1,atk2,defesa,nome_atk1,nome_atk2,nv):
+                                                                          ^ (bad-whitespace)
+C: 34, 0: Exactly one space required after comma
+mon.append(pokemon("Thomasmon",100,100,30,55,20,"Bola de fogo","Lança-fogo",1))
+                              ^ (bad-whitespace)
+C: 34, 0: Exactly one space required after comma
+mon.append(pokemon("Thomasmon",100,100,30,55,20,"Bola de fogo","Lança-fogo",1))
+                                  ^ (bad-whitespace)
+C: 34, 0: Exactly one space required after comma
+mon.append(pokemon("Thomasmon",100,100,30,55,20,"Bola de fogo","Lança-fogo",1))
+                                      ^ (bad-whitespace)
+C: 34, 0: Exactly one space required after comma
+mon.append(pokemon("Thomasmon",100,100,30,55,20,"Bola de fogo","Lança-fogo",1))
+                                         ^ (bad-whitespace)
+C: 34, 0: Exactly one space required after comma
+mon.append(pokemon("Thomasmon",100,100,30,55,20,"Bola de fogo","Lança-fogo",1))
+                                            ^ (bad-whitespace)
+C: 34, 0: Exactly one space required after comma
+mon.append(pokemon("Thomasmon",100,100,30,55,20,"Bola de fogo","Lança-fogo",1))
+                                               ^ (bad-whitespace)
+C: 34, 0: Exactly one space required after comma
+mon.append(pokemon("Thomasmon",100,100,30,55,20,"Bola de fogo","Lança-fogo",1))
+                                                              ^ (bad-whitespace)
+C: 34, 0: Exactly one space required after comma
+mon.append(pokemon("Thomasmon",100,100,30,55,20,"Bola de fogo","Lança-fogo",1))
+                                                                           ^ (bad-whitespace)
+C: 35, 0: Exactly one space required after comma
+mon.append(pokemon("Dilmon",130,130,40,60,10,"Golpe fatal","Cortar",1))
+                           ^ (bad-whitespace)
+C: 35, 0: Exactly one space required after comma
+mon.append(pokemon("Dilmon",130,130,40,60,10,"Golpe fatal","Cortar",1))
+                               ^ (bad-whitespace)
+C: 35, 0: Exactly one space required after comma
+mon.append(pokemon("Dilmon",130,130,40,60,10,"Golpe fatal","Cortar",1))
+                                   ^ (bad-whitespace)
+C: 35, 0: Exactly one space required after comma
+mon.append(pokemon("Dilmon",130,130,40,60,10,"Golpe fatal","Cortar",1))
+                                      ^ (bad-whitespace)
+C: 35, 0: Exactly one space required after comma
+mon.append(pokemon("Dilmon",130,130,40,60,10,"Golpe fatal","Cortar",1))
+                                         ^ (bad-whitespace)
+C: 35, 0: Exactly one space required after comma
+mon.append(pokemon("Dilmon",130,130,40,60,10,"Golpe fatal","Cortar",1))
+                                            ^ (bad-whitespace)
+C: 35, 0: Exactly one space required after comma
+mon.append(pokemon("Dilmon",130,130,40,60,10,"Golpe fatal","Cortar",1))
+                                                          ^ (bad-whitespace)
+C: 35, 0: Exactly one space required after comma
+mon.append(pokemon("Dilmon",130,130,40,60,10,"Golpe fatal","Cortar",1))
+                                                                   ^ (bad-whitespace)
+C: 36, 0: Exactly one space required after comma
+mon.append(pokemon("Arielmon",80,80,30,20,10,"Cortar","fogo",1))
+                             ^ (bad-whitespace)
+C: 36, 0: Exactly one space required after comma
+mon.append(pokemon("Arielmon",80,80,30,20,10,"Cortar","fogo",1))
+                                ^ (bad-whitespace)
+C: 36, 0: Exactly one space required after comma
+mon.append(pokemon("Arielmon",80,80,30,20,10,"Cortar","fogo",1))
+                                   ^ (bad-whitespace)
+C: 36, 0: Exactly one space required after comma
+mon.append(pokemon("Arielmon",80,80,30,20,10,"Cortar","fogo",1))
+                                      ^ (bad-whitespace)
+C: 36, 0: Exactly one space required after comma
+mon.append(pokemon("Arielmon",80,80,30,20,10,"Cortar","fogo",1))
+                                         ^ (bad-whitespace)
+C: 36, 0: Exactly one space required after comma
+mon.append(pokemon("Arielmon",80,80,30,20,10,"Cortar","fogo",1))
+                                            ^ (bad-whitespace)
+C: 36, 0: Exactly one space required after comma
+mon.append(pokemon("Arielmon",80,80,30,20,10,"Cortar","fogo",1))
+                                                     ^ (bad-whitespace)
+C: 36, 0: Exactly one space required after comma
+mon.append(pokemon("Arielmon",80,80,30,20,10,"Cortar","fogo",1))
+                                                            ^ (bad-whitespace)
+C: 37, 0: Exactly one space required after comma
+mon.append(pokemon("Omakamon",130,130,30,40,18,"Chute","Lança de fogo",1))
+                             ^ (bad-whitespace)
+C: 37, 0: Exactly one space required after comma
+mon.append(pokemon("Omakamon",130,130,30,40,18,"Chute","Lança de fogo",1))
+                                 ^ (bad-whitespace)
+C: 37, 0: Exactly one space required after comma
+mon.append(pokemon("Omakamon",130,130,30,40,18,"Chute","Lança de fogo",1))
+                                     ^ (bad-whitespace)
+C: 37, 0: Exactly one space required after comma
+mon.append(pokemon("Omakamon",130,130,30,40,18,"Chute","Lança de fogo",1))
+                                        ^ (bad-whitespace)
+C: 37, 0: Exactly one space required after comma
+mon.append(pokemon("Omakamon",130,130,30,40,18,"Chute","Lança de fogo",1))
+                                           ^ (bad-whitespace)
+C: 37, 0: Exactly one space required after comma
+mon.append(pokemon("Omakamon",130,130,30,40,18,"Chute","Lança de fogo",1))
+                                              ^ (bad-whitespace)
+C: 37, 0: Exactly one space required after comma
+mon.append(pokemon("Omakamon",130,130,30,40,18,"Chute","Lança de fogo",1))
+                                                      ^ (bad-whitespace)
+C: 37, 0: Exactly one space required after comma
+mon.append(pokemon("Omakamon",130,130,30,40,18,"Chute","Lança de fogo",1))
+                                                                      ^ (bad-whitespace)
+C: 38, 0: Exactly one space required after comma
+mon.append(pokemon("Lalamon",100,100,20,50,12,"Golpe furioso","Ataque do ganso",1))
+                            ^ (bad-whitespace)
+C: 38, 0: Exactly one space required after comma
+mon.append(pokemon("Lalamon",100,100,20,50,12,"Golpe furioso","Ataque do ganso",1))
+                                ^ (bad-whitespace)
+C: 38, 0: Exactly one space required after comma
+mon.append(pokemon("Lalamon",100,100,20,50,12,"Golpe furioso","Ataque do ganso",1))
+                                    ^ (bad-whitespace)
+C: 38, 0: Exactly one space required after comma
+mon.append(pokemon("Lalamon",100,100,20,50,12,"Golpe furioso","Ataque do ganso",1))
+                                       ^ (bad-whitespace)
+C: 38, 0: Exactly one space required after comma
+mon.append(pokemon("Lalamon",100,100,20,50,12,"Golpe furioso","Ataque do ganso",1))
+                                          ^ (bad-whitespace)
+C: 38, 0: Exactly one space required after comma
+mon.append(pokemon("Lalamon",100,100,20,50,12,"Golpe furioso","Ataque do ganso",1))
+                                             ^ (bad-whitespace)
+C: 38, 0: Exactly one space required after comma
+mon.append(pokemon("Lalamon",100,100,20,50,12,"Golpe furioso","Ataque do ganso",1))
+                                                             ^ (bad-whitespace)
+C: 38, 0: Exactly one space required after comma
+mon.append(pokemon("Lalamon",100,100,20,50,12,"Golpe furioso","Ataque do ganso",1))
+                                                                               ^ (bad-whitespace)
+C: 39, 0: Exactly one space required after comma
+mon.append(pokemon("Blablamon",80,80,20,30,10,"Chute","Golpe fatal",1))
+                              ^ (bad-whitespace)
+C: 39, 0: Exactly one space required after comma
+mon.append(pokemon("Blablamon",80,80,20,30,10,"Chute","Golpe fatal",1))
+                                 ^ (bad-whitespace)
+C: 39, 0: Exactly one space required after comma
+mon.append(pokemon("Blablamon",80,80,20,30,10,"Chute","Golpe fatal",1))
+                                    ^ (bad-whitespace)
+C: 39, 0: Exactly one space required after comma
+mon.append(pokemon("Blablamon",80,80,20,30,10,"Chute","Golpe fatal",1))
+                                       ^ (bad-whitespace)
+C: 39, 0: Exactly one space required after comma
+mon.append(pokemon("Blablamon",80,80,20,30,10,"Chute","Golpe fatal",1))
+                                          ^ (bad-whitespace)
+C: 39, 0: Exactly one space required after comma
+mon.append(pokemon("Blablamon",80,80,20,30,10,"Chute","Golpe fatal",1))
+                                             ^ (bad-whitespace)
+C: 39, 0: Exactly one space required after comma
+mon.append(pokemon("Blablamon",80,80,20,30,10,"Chute","Golpe fatal",1))
+                                                     ^ (bad-whitespace)
+C: 39, 0: Exactly one space required after comma
+mon.append(pokemon("Blablamon",80,80,20,30,10,"Chute","Golpe fatal",1))
+                                                                   ^ (bad-whitespace)
+C: 40, 0: Exactly one space required after comma
+mon.append(pokemon("Digimon",80,80,30,20,10,"Cortar","fogo",1))
+                            ^ (bad-whitespace)
+C: 40, 0: Exactly one space required after comma
+mon.append(pokemon("Digimon",80,80,30,20,10,"Cortar","fogo",1))
+                               ^ (bad-whitespace)
+C: 40, 0: Exactly one space required after comma
+mon.append(pokemon("Digimon",80,80,30,20,10,"Cortar","fogo",1))
+                                  ^ (bad-whitespace)
+C: 40, 0: Exactly one space required after comma
+mon.append(pokemon("Digimon",80,80,30,20,10,"Cortar","fogo",1))
+                                     ^ (bad-whitespace)
+C: 40, 0: Exactly one space required after comma
+mon.append(pokemon("Digimon",80,80,30,20,10,"Cortar","fogo",1))
+                                        ^ (bad-whitespace)
+C: 40, 0: Exactly one space required after comma
+mon.append(pokemon("Digimon",80,80,30,20,10,"Cortar","fogo",1))
+                                           ^ (bad-whitespace)
+C: 40, 0: Exactly one space required after comma
+mon.append(pokemon("Digimon",80,80,30,20,10,"Cortar","fogo",1))
+                                                    ^ (bad-whitespace)
+C: 40, 0: Exactly one space required after comma
+mon.append(pokemon("Digimon",80,80,30,20,10,"Cortar","fogo",1))
+                                                           ^ (bad-whitespace)
+C: 41, 0: Exactly one space required after comma
+mon.append(pokemon("Xinipsimon",80,80,30,20,10,"Cortar","fogo",1))
+                               ^ (bad-whitespace)
+C: 41, 0: Exactly one space required after comma
+mon.append(pokemon("Xinipsimon",80,80,30,20,10,"Cortar","fogo",1))
+                                  ^ (bad-whitespace)
+C: 41, 0: Exactly one space required after comma
+mon.append(pokemon("Xinipsimon",80,80,30,20,10,"Cortar","fogo",1))
+                                     ^ (bad-whitespace)
+C: 41, 0: Exactly one space required after comma
+mon.append(pokemon("Xinipsimon",80,80,30,20,10,"Cortar","fogo",1))
+                                        ^ (bad-whitespace)
+C: 41, 0: Exactly one space required after comma
+mon.append(pokemon("Xinipsimon",80,80,30,20,10,"Cortar","fogo",1))
+                                           ^ (bad-whitespace)
+C: 41, 0: Exactly one space required after comma
+mon.append(pokemon("Xinipsimon",80,80,30,20,10,"Cortar","fogo",1))
+                                              ^ (bad-whitespace)
+C: 41, 0: Exactly one space required after comma
+mon.append(pokemon("Xinipsimon",80,80,30,20,10,"Cortar","fogo",1))
+                                                       ^ (bad-whitespace)
+C: 41, 0: Exactly one space required after comma
+mon.append(pokemon("Xinipsimon",80,80,30,20,10,"Cortar","fogo",1))
+                                                              ^ (bad-whitespace)
+C: 42, 0: Exactly one space required after comma
+mon.append(pokemon("Lulumon",90,90,30,20,10,"Chuva de fogo","Soco",1))
+                            ^ (bad-whitespace)
+C: 42, 0: Exactly one space required after comma
+mon.append(pokemon("Lulumon",90,90,30,20,10,"Chuva de fogo","Soco",1))
+                               ^ (bad-whitespace)
+C: 42, 0: Exactly one space required after comma
+mon.append(pokemon("Lulumon",90,90,30,20,10,"Chuva de fogo","Soco",1))
+                                  ^ (bad-whitespace)
+C: 42, 0: Exactly one space required after comma
+mon.append(pokemon("Lulumon",90,90,30,20,10,"Chuva de fogo","Soco",1))
+                                     ^ (bad-whitespace)
+C: 42, 0: Exactly one space required after comma
+mon.append(pokemon("Lulumon",90,90,30,20,10,"Chuva de fogo","Soco",1))
+                                        ^ (bad-whitespace)
+C: 42, 0: Exactly one space required after comma
+mon.append(pokemon("Lulumon",90,90,30,20,10,"Chuva de fogo","Soco",1))
+                                           ^ (bad-whitespace)
+C: 42, 0: Exactly one space required after comma
+mon.append(pokemon("Lulumon",90,90,30,20,10,"Chuva de fogo","Soco",1))
+                                                           ^ (bad-whitespace)
+C: 42, 0: Exactly one space required after comma
+mon.append(pokemon("Lulumon",90,90,30,20,10,"Chuva de fogo","Soco",1))
+                                                                  ^ (bad-whitespace)
+C: 43, 0: Exactly one space required after comma
+mon.append(pokemon("Temermon",80,80,50,20,10,"Cortar","Chute",1))
+                             ^ (bad-whitespace)
+C: 43, 0: Exactly one space required after comma
+mon.append(pokemon("Temermon",80,80,50,20,10,"Cortar","Chute",1))
+                                ^ (bad-whitespace)
+C: 43, 0: Exactly one space required after comma
+mon.append(pokemon("Temermon",80,80,50,20,10,"Cortar","Chute",1))
+                                   ^ (bad-whitespace)
+C: 43, 0: Exactly one space required after comma
+mon.append(pokemon("Temermon",80,80,50,20,10,"Cortar","Chute",1))
+                                      ^ (bad-whitespace)
+C: 43, 0: Exactly one space required after comma
+mon.append(pokemon("Temermon",80,80,50,20,10,"Cortar","Chute",1))
+                                         ^ (bad-whitespace)
+C: 43, 0: Exactly one space required after comma
+mon.append(pokemon("Temermon",80,80,50,20,10,"Cortar","Chute",1))
+                                            ^ (bad-whitespace)
+C: 43, 0: Exactly one space required after comma
+mon.append(pokemon("Temermon",80,80,50,20,10,"Cortar","Chute",1))
+                                                     ^ (bad-whitespace)
+C: 43, 0: Exactly one space required after comma
+mon.append(pokemon("Temermon",80,80,50,20,10,"Cortar","Chute",1))
+                                                             ^ (bad-whitespace)
+C: 44, 0: Exactly one space required after comma
+mon.append(pokemon("Xaxamon",80,80,60,20,10,"Golpeada","fogo",1))
+                            ^ (bad-whitespace)
+C: 44, 0: Exactly one space required after comma
+mon.append(pokemon("Xaxamon",80,80,60,20,10,"Golpeada","fogo",1))
+                               ^ (bad-whitespace)
+C: 44, 0: Exactly one space required after comma
+mon.append(pokemon("Xaxamon",80,80,60,20,10,"Golpeada","fogo",1))
+                                  ^ (bad-whitespace)
+C: 44, 0: Exactly one space required after comma
+mon.append(pokemon("Xaxamon",80,80,60,20,10,"Golpeada","fogo",1))
+                                     ^ (bad-whitespace)
+C: 44, 0: Exactly one space required after comma
+mon.append(pokemon("Xaxamon",80,80,60,20,10,"Golpeada","fogo",1))
+                                        ^ (bad-whitespace)
+C: 44, 0: Exactly one space required after comma
+mon.append(pokemon("Xaxamon",80,80,60,20,10,"Golpeada","fogo",1))
+                                           ^ (bad-whitespace)
+C: 44, 0: Exactly one space required after comma
+mon.append(pokemon("Xaxamon",80,80,60,20,10,"Golpeada","fogo",1))
+                                                      ^ (bad-whitespace)
+C: 44, 0: Exactly one space required after comma
+mon.append(pokemon("Xaxamon",80,80,60,20,10,"Golpeada","fogo",1))
+                                                             ^ (bad-whitespace)
+C: 45, 0: Exactly one space required after comma
+mon.append(pokemon("Lolomon",50,50,80,20,10,"Cortar","fogo",1))
+                            ^ (bad-whitespace)
+C: 45, 0: Exactly one space required after comma
+mon.append(pokemon("Lolomon",50,50,80,20,10,"Cortar","fogo",1))
+                               ^ (bad-whitespace)
+C: 45, 0: Exactly one space required after comma
+mon.append(pokemon("Lolomon",50,50,80,20,10,"Cortar","fogo",1))
+                                  ^ (bad-whitespace)
+C: 45, 0: Exactly one space required after comma
+mon.append(pokemon("Lolomon",50,50,80,20,10,"Cortar","fogo",1))
+                                     ^ (bad-whitespace)
+C: 45, 0: Exactly one space required after comma
+mon.append(pokemon("Lolomon",50,50,80,20,10,"Cortar","fogo",1))
+                                        ^ (bad-whitespace)
+C: 45, 0: Exactly one space required after comma
+mon.append(pokemon("Lolomon",50,50,80,20,10,"Cortar","fogo",1))
+                                           ^ (bad-whitespace)
+C: 45, 0: Exactly one space required after comma
+mon.append(pokemon("Lolomon",50,50,80,20,10,"Cortar","fogo",1))
+                                                    ^ (bad-whitespace)
+C: 45, 0: Exactly one space required after comma
+mon.append(pokemon("Lolomon",50,50,80,20,10,"Cortar","fogo",1))
+                                                           ^ (bad-whitespace)
+C: 63, 0: Exactly one space required after comma
+def batalha1(p1,p2):
+               ^ (bad-whitespace)
+C: 66, 0: Exactly one space required after comma
+    slow_type(("Batalha!!{} versus {}\n\n").format(p1.nome,p2.nome))
+                                                          ^ (bad-whitespace)
+C: 68, 0: Line too long (105/100) (line-too-long)
+C: 68, 0: Exactly one space required after comma
+    slow_type(("{} - Vida:{}/{} Defesa:{} Level:{} \n").format(p1.nome,p1.vida,p1.vidat,p1.defesa,p1.nv))
+                                                                      ^ (bad-whitespace)
+C: 68, 0: Exactly one space required after comma
+    slow_type(("{} - Vida:{}/{} Defesa:{} Level:{} \n").format(p1.nome,p1.vida,p1.vidat,p1.defesa,p1.nv))
+                                                                              ^ (bad-whitespace)
+C: 68, 0: Exactly one space required after comma
+    slow_type(("{} - Vida:{}/{} Defesa:{} Level:{} \n").format(p1.nome,p1.vida,p1.vidat,p1.defesa,p1.nv))
+                                                                                       ^ (bad-whitespace)
+C: 68, 0: Exactly one space required after comma
+    slow_type(("{} - Vida:{}/{} Defesa:{} Level:{} \n").format(p1.nome,p1.vida,p1.vidat,p1.defesa,p1.nv))
+                                                                                                 ^ (bad-whitespace)
+C: 69, 0: Line too long (107/100) (line-too-long)
+C: 69, 0: Exactly one space required after comma
+    slow_type(("{} - Vida:{}/{} Defesa:{} Level:{} \n\n").format(p2.nome,p2.vida,p2.vidat,p2.defesa,p2.nv))
+                                                                        ^ (bad-whitespace)
+C: 69, 0: Exactly one space required after comma
+    slow_type(("{} - Vida:{}/{} Defesa:{} Level:{} \n\n").format(p2.nome,p2.vida,p2.vidat,p2.defesa,p2.nv))
+                                                                                ^ (bad-whitespace)
+C: 69, 0: Exactly one space required after comma
+    slow_type(("{} - Vida:{}/{} Defesa:{} Level:{} \n\n").format(p2.nome,p2.vida,p2.vidat,p2.defesa,p2.nv))
+                                                                                         ^ (bad-whitespace)
+C: 69, 0: Exactly one space required after comma
+    slow_type(("{} - Vida:{}/{} Defesa:{} Level:{} \n\n").format(p2.nome,p2.vida,p2.vidat,p2.defesa,p2.nv))
+                                                                                                   ^ (bad-whitespace)
+C: 72, 0: Exactly one space required after comma
+    opc_bat = (" {}(A)\n {}(B)\n Fugir(F)\n ").format(p1.nome_atk1,p1.nome_atk2)
+                                                                  ^ (bad-whitespace)
+C: 76, 0: Exactly one space required after comma
+            atkdoplayer = p1.atk1 + random.randint(1,10)*p1.nv #Elemento supresa
+                                                    ^ (bad-whitespace)
+C: 79, 0: Exactly one space required after comma
+            atkdoplayer = p1.atk2 + random.randint(1,10)*p1.nv
+                                                    ^ (bad-whitespace)
+C: 82, 0: Exactly one space required after comma
+            fugir = random.randint(1,10)
+                                    ^ (bad-whitespace)
+C: 83, 0: Exactly one space required after comparison
+            if fugir >=6:
+                     ^^ (bad-whitespace)
+C:100, 0: Exactly one space required after comma
+        fast_type(("Você deu {} de dano. {} ainda tem {} de vida!\n").format(atk,p2.nome,p2.vida))
+                                                                                ^ (bad-whitespace)
+C:100, 0: Exactly one space required after comma
+        fast_type(("Você deu {} de dano. {} ainda tem {} de vida!\n").format(atk,p2.nome,p2.vida))
+                                                                                        ^ (bad-whitespace)
+C:103, 0: Exactly one space required after comma
+        enemy_atk_choice = random.randint(1,2)
+                                           ^ (bad-whitespace)
+C:105, 0: Exactly one space required after comma
+            ATQ = p2.atk1 + p2.nv*random.randint(1,10)
+                                                  ^ (bad-whitespace)
+C:108, 0: Exactly one space required after comma
+            ATQ = p2.atk2 + p2.nv*random.randint(1,10)
+                                                  ^ (bad-whitespace)
+C:114, 0: Exactly one space required after comma
+            slow_type(("{} usou {}!".format(p2.nome,NOME)))
+                                                   ^ (bad-whitespace)
+C:119, 0: Line too long (102/100) (line-too-long)
+C:119, 0: Exactly one space required after comma
+            slow_type(("{} deu {} de dano! Você ainda tem {} de vida!\n").format(p2.nome,atk,p1.vida))
+                                                                                        ^ (bad-whitespace)
+C:119, 0: Exactly one space required after comma
+            slow_type(("{} deu {} de dano! Você ainda tem {} de vida!\n").format(p2.nome,atk,p1.vida))
+                                                                                            ^ (bad-whitespace)
+C:125, 0: Exactly one space required around assignment
+            x=1
+             ^ (bad-whitespace)
+C:133, 0: Exactly one space required around assignment
+            x=1
+             ^ (bad-whitespace)
+C:141, 0: Exactly one space required after assignment
+    obj.atk2 =obj.atk2 + obj.atk2//5
+             ^ (bad-whitespace)
+C:142, 0: Exactly one space required after assignment
+    obj.defesa =obj.defesa + obj.defesa//5
+               ^ (bad-whitespace)
+C:143, 0: Exactly one space required after assignment
+    obj.vida =obj.vida + obj.vida//5
+             ^ (bad-whitespace)
+C:144, 0: Exactly one space required after assignment
+    obj.vidat =obj.vidat + obj.vidat//5
+              ^ (bad-whitespace)
+C:147, 0: Exactly one space required after comma
+startmon = pokemon(" ",1000,0,0,0,0," "," ",1)
+                      ^ (bad-whitespace)
+C:147, 0: Exactly one space required after comma
+startmon = pokemon(" ",1000,0,0,0,0," "," ",1)
+                           ^ (bad-whitespace)
+C:147, 0: Exactly one space required after comma
+startmon = pokemon(" ",1000,0,0,0,0," "," ",1)
+                             ^ (bad-whitespace)
+C:147, 0: Exactly one space required after comma
+startmon = pokemon(" ",1000,0,0,0,0," "," ",1)
+                               ^ (bad-whitespace)
+C:147, 0: Exactly one space required after comma
+startmon = pokemon(" ",1000,0,0,0,0," "," ",1)
+                                 ^ (bad-whitespace)
+C:147, 0: Exactly one space required after comma
+startmon = pokemon(" ",1000,0,0,0,0," "," ",1)
+                                   ^ (bad-whitespace)
+C:147, 0: Exactly one space required after comma
+startmon = pokemon(" ",1000,0,0,0,0," "," ",1)
+                                       ^ (bad-whitespace)
+C:147, 0: Exactly one space required after comma
+startmon = pokemon(" ",1000,0,0,0,0," "," ",1)
+                                           ^ (bad-whitespace)
+C:161, 0: Exactly one space required after assignment
+primeirapergunta =input("Novo jogo(N) ou Carregar jogo(C)?")
+                 ^ (bad-whitespace)
+C:167, 0: Exactly one space required around assignment
+        startmon.vidat=listsave[2]
+                      ^ (bad-whitespace)
+C:168, 0: Exactly one space required around assignment
+        startmon.atk1=listsave[3]
+                     ^ (bad-whitespace)
+C:169, 0: Exactly one space required around assignment
+        startmon.atk2=listsave[4]
+                     ^ (bad-whitespace)
+C:170, 0: Exactly one space required around assignment
+        startmon.defesa=listsave[5]
+                       ^ (bad-whitespace)
+C:171, 0: Exactly one space required around assignment
+        startmon.nome_atk1=listsave[6]
+                          ^ (bad-whitespace)
+C:172, 0: Exactly one space required around assignment
+        startmon.nome_atk2=listsave[7]
+                          ^ (bad-whitespace)
+C:173, 0: Exactly one space required around assignment
+        startmon.nv=listsave[8]
+                   ^ (bad-whitespace)
+C:177, 0: Exactly one space required after comma
+            for i in range(11,len(listsave)):
+                             ^ (bad-whitespace)
+C:191, 0: Line too long (121/100) (line-too-long)
+C:193, 0: Unnecessary parens after u'print' keyword (superfluous-parens)
+C:196, 0: Exactly one space required after comma
+        startmon = pokemon(nomemon,400,400,80,100,25,"ATK1","ATK2",9)
+                                  ^ (bad-whitespace)
+C:196, 0: Exactly one space required after comma
+        startmon = pokemon(nomemon,400,400,80,100,25,"ATK1","ATK2",9)
+                                      ^ (bad-whitespace)
+C:196, 0: Exactly one space required after comma
+        startmon = pokemon(nomemon,400,400,80,100,25,"ATK1","ATK2",9)
+                                          ^ (bad-whitespace)
+C:196, 0: Exactly one space required after comma
+        startmon = pokemon(nomemon,400,400,80,100,25,"ATK1","ATK2",9)
+                                             ^ (bad-whitespace)
+C:196, 0: Exactly one space required after comma
+        startmon = pokemon(nomemon,400,400,80,100,25,"ATK1","ATK2",9)
+                                                 ^ (bad-whitespace)
+C:196, 0: Exactly one space required after comma
+        startmon = pokemon(nomemon,400,400,80,100,25,"ATK1","ATK2",9)
+                                                    ^ (bad-whitespace)
+C:196, 0: Exactly one space required after comma
+        startmon = pokemon(nomemon,400,400,80,100,25,"ATK1","ATK2",9)
+                                                           ^ (bad-whitespace)
+C:196, 0: Exactly one space required after comma
+        startmon = pokemon(nomemon,400,400,80,100,25,"ATK1","ATK2",9)
+                                                                  ^ (bad-whitespace)
+C:199, 0: Line too long (128/100) (line-too-long)
+C:199, 0: Exactly one space required after comma
+slow_type(("OK! {}, você está na cidade {}. Você pode passear livremente aqui! \n O que deseja fazer?".format(name,city_count)))
+                                                                                                                  ^ (bad-whitespace)
+C:200, 0: Line too long (116/100) (line-too-long)
+C:201, 0: Line too long (144/100) (line-too-long)
+C:201, 0: Unnecessary parens after u'print' keyword (superfluous-parens)
+C:203, 0: Line too long (118/100) (line-too-long)
+C:208, 0: Line too long (111/100) (line-too-long)
+C:210, 0: Exactly one space required after comma
+            startmon = pokemon(nomemon,100,100,60,70,25,"Lança de fogo","Chute",1)
+                                      ^ (bad-whitespace)
+C:210, 0: Exactly one space required after comma
+            startmon = pokemon(nomemon,100,100,60,70,25,"Lança de fogo","Chute",1)
+                                          ^ (bad-whitespace)
+C:210, 0: Exactly one space required after comma
+            startmon = pokemon(nomemon,100,100,60,70,25,"Lança de fogo","Chute",1)
+                                              ^ (bad-whitespace)
+C:210, 0: Exactly one space required after comma
+            startmon = pokemon(nomemon,100,100,60,70,25,"Lança de fogo","Chute",1)
+                                                 ^ (bad-whitespace)
+C:210, 0: Exactly one space required after comma
+            startmon = pokemon(nomemon,100,100,60,70,25,"Lança de fogo","Chute",1)
+                                                    ^ (bad-whitespace)
+C:210, 0: Exactly one space required after comma
+            startmon = pokemon(nomemon,100,100,60,70,25,"Lança de fogo","Chute",1)
+                                                       ^ (bad-whitespace)
+C:210, 0: Exactly one space required after comma
+            startmon = pokemon(nomemon,100,100,60,70,25,"Lança de fogo","Chute",1)
+                                                                       ^ (bad-whitespace)
+C:210, 0: Exactly one space required after comma
+            startmon = pokemon(nomemon,100,100,60,70,25,"Lança de fogo","Chute",1)
+                                                                               ^ (bad-whitespace)
+C:226, 0: Exactly one space required around comparison
+            while x==0: #só pra n usar while true denovo
+                   ^^ (bad-whitespace)
+C:232, 0: Unnecessary parens after u'print' keyword (superfluous-parens)
+C:236, 0: Unnecessary parens after u'print' keyword (superfluous-parens)
+C:238, 0: Unnecessary parens after u'print' keyword (superfluous-parens)
+C:242, 0: Exactly one space required after comma
+                    slow_type(("Faltam {} passos para a cidade {} \n").format(d,city_count+1))
+                                                                               ^ (bad-whitespace)
+C:256, 0: Exactly one space required after comma
+                            bat = batalha1(startmon,adver)
+                                                   ^ (bad-whitespace)
+C:260, 0: Line too long (136/100) (line-too-long)
+C:260, 0: Exactly one space required after comma
+                                fast_type(("Você ganhou {} de exp! Falta {} para o próximo nível!\n").format(10*adver.nv,expfill - exp))
+                                                                                                                        ^ (bad-whitespace)
+C:265, 0: Line too long (130/100) (line-too-long)
+C:265, 0: Exactly one space required after comma
+                                    slow_type(("Você passou de nível! Agora {} está nível {}!").format(startmon.nome,startmon.nv))
+                                                                                                                    ^ (bad-whitespace)
+C:271, 0: Exactly one space required after assignment
+                                        startmon.nome ="Super " + nome_antigo
+                                                      ^ (bad-whitespace)
+C:272, 0: Exactly one space required after assignment
+                                        startmon.atk1 =startmon.atk1 + startmon.atk1//5
+                                                      ^ (bad-whitespace)
+C:273, 0: Exactly one space required after assignment
+                                        startmon.atk2 =startmon.atk2 + startmon.atk2//5
+                                                      ^ (bad-whitespace)
+C:280, 0: Exactly one space required after assignment
+                                        startmon.nome ="Mega " + nome_antigo
+                                                      ^ (bad-whitespace)
+C:281, 0: Exactly one space required after assignment
+                                        startmon.atk1 =startmon.atk1+ startmon.atk1//5
+                                                      ^ (bad-whitespace)
+C:282, 0: Exactly one space required after assignment
+                                        startmon.atk2 =startmon.atk2 + startmon.atk2//5
+                                                      ^ (bad-whitespace)
+C:293, 0: Unnecessary parens after u'print' keyword (superfluous-parens)
+C:296, 0: Line too long (185/100) (line-too-long)
+C:296, 0: Exactly one space required after comma
+                    listsave = [startmon.nome,startmon.vida,startmon.vidat,startmon.atk1,startmon.atk2,startmon.defesa,startmon.nome_atk1,startmon.nome_atk2,startmon.nv,name,city_count]
+                                             ^ (bad-whitespace)
+C:296, 0: Exactly one space required after comma
+                    listsave = [startmon.nome,startmon.vida,startmon.vidat,startmon.atk1,startmon.atk2,startmon.defesa,startmon.nome_atk1,startmon.nome_atk2,startmon.nv,name,city_count]
+                                                           ^ (bad-whitespace)
+C:296, 0: Exactly one space required after comma
+                    listsave = [startmon.nome,startmon.vida,startmon.vidat,startmon.atk1,startmon.atk2,startmon.defesa,startmon.nome_atk1,startmon.nome_atk2,startmon.nv,name,city_count]
+                                                                          ^ (bad-whitespace)
+C:296, 0: Exactly one space required after comma
+                    listsave = [startmon.nome,startmon.vida,startmon.vidat,startmon.atk1,startmon.atk2,startmon.defesa,startmon.nome_atk1,startmon.nome_atk2,startmon.nv,name,city_count]
+                                                                                        ^ (bad-whitespace)
+C:296, 0: Exactly one space required after comma
+                    listsave = [startmon.nome,startmon.vida,startmon.vidat,startmon.atk1,startmon.atk2,startmon.defesa,startmon.nome_atk1,startmon.nome_atk2,startmon.nv,name,city_count]
+                                                                                                      ^ (bad-whitespace)
+C:296, 0: Exactly one space required after comma
+                    listsave = [startmon.nome,startmon.vida,startmon.vidat,startmon.atk1,startmon.atk2,startmon.defesa,startmon.nome_atk1,startmon.nome_atk2,startmon.nv,name,city_count]
+                                                                                                                      ^ (bad-whitespace)
+C:296, 0: Exactly one space required after comma
+                    listsave = [startmon.nome,startmon.vida,startmon.vidat,startmon.atk1,startmon.atk2,startmon.defesa,startmon.nome_atk1,startmon.nome_atk2,startmon.nv,name,city_count]
+                                                                                                                                         ^ (bad-whitespace)
+C:296, 0: Exactly one space required after comma
+                    listsave = [startmon.nome,startmon.vida,startmon.vidat,startmon.atk1,startmon.atk2,startmon.defesa,startmon.nome_atk1,startmon.nome_atk2,startmon.nv,name,city_count]
+                                                                                                                                                            ^ (bad-whitespace)
+C:296, 0: Exactly one space required after comma
+                    listsave = [startmon.nome,startmon.vida,startmon.vidat,startmon.atk1,startmon.atk2,startmon.defesa,startmon.nome_atk1,startmon.nome_atk2,startmon.nv,name,city_count]
+                                                                                                                                                                        ^ (bad-whitespace)
+C:296, 0: Exactly one space required after comma
+                    listsave = [startmon.nome,startmon.vida,startmon.vidat,startmon.atk1,startmon.atk2,startmon.defesa,startmon.nome_atk1,startmon.nome_atk2,startmon.nv,name,city_count]
+                                                                                                                                                                             ^ (bad-whitespace)
+C:301, 0: Exactly one space required after comma
+                    with open("save.json","w") as archive:
+                                         ^ (bad-whitespace)
+W:302, 0: Bad indentation. Found 28 spaces, expected 24 (bad-indentation)
+C:302, 0: Exactly one space required after comma
+                            json.dump(listsave,archive)
+                                              ^ (bad-whitespace)
+W:303, 0: Bad indentation. Found 28 spaces, expected 24 (bad-indentation)
+W:304, 0: Bad indentation. Found 28 spaces, expected 24 (bad-indentation)
+C:307, 0: Unnecessary parens after u'print' keyword (superfluous-parens)
+C:310, 0: Line too long (174/100) (line-too-long)
+W:310, 0: Bad indentation. Found 9 spaces, expected 8 (bad-indentation)
+C:310, 0: Exactly one space required after comma
+         listsave = [startmon.nome,startmon.vida,startmon.vidat,startmon.atk1,startmon.atk2,startmon.defesa,startmon.nome_atk1,startmon.nome_atk2,startmon.nv,name,city_count]
+                                  ^ (bad-whitespace)
+C:310, 0: Exactly one space required after comma
+         listsave = [startmon.nome,startmon.vida,startmon.vidat,startmon.atk1,startmon.atk2,startmon.defesa,startmon.nome_atk1,startmon.nome_atk2,startmon.nv,name,city_count]
+                                                ^ (bad-whitespace)
+C:310, 0: Exactly one space required after comma
+         listsave = [startmon.nome,startmon.vida,startmon.vidat,startmon.atk1,startmon.atk2,startmon.defesa,startmon.nome_atk1,startmon.nome_atk2,startmon.nv,name,city_count]
+                                                               ^ (bad-whitespace)
+C:310, 0: Exactly one space required after comma
+         listsave = [startmon.nome,startmon.vida,startmon.vidat,startmon.atk1,startmon.atk2,startmon.defesa,startmon.nome_atk1,startmon.nome_atk2,startmon.nv,name,city_count]
+                                                                             ^ (bad-whitespace)
+C:310, 0: Exactly one space required after comma
+         listsave = [startmon.nome,startmon.vida,startmon.vidat,startmon.atk1,startmon.atk2,startmon.defesa,startmon.nome_atk1,startmon.nome_atk2,startmon.nv,name,city_count]
+                                                                                           ^ (bad-whitespace)
+C:310, 0: Exactly one space required after comma
+         listsave = [startmon.nome,startmon.vida,startmon.vidat,startmon.atk1,startmon.atk2,startmon.defesa,startmon.nome_atk1,startmon.nome_atk2,startmon.nv,name,city_count]
+                                                                                                           ^ (bad-whitespace)
+C:310, 0: Exactly one space required after comma
+         listsave = [startmon.nome,startmon.vida,startmon.vidat,startmon.atk1,startmon.atk2,startmon.defesa,startmon.nome_atk1,startmon.nome_atk2,startmon.nv,name,city_count]
+                                                                                                                              ^ (bad-whitespace)
+C:310, 0: Exactly one space required after comma
+         listsave = [startmon.nome,startmon.vida,startmon.vidat,startmon.atk1,startmon.atk2,startmon.defesa,startmon.nome_atk1,startmon.nome_atk2,startmon.nv,name,city_count]
+                                                                                                                                                 ^ (bad-whitespace)
+C:310, 0: Exactly one space required after comma
+         listsave = [startmon.nome,startmon.vida,startmon.vidat,startmon.atk1,startmon.atk2,startmon.defesa,startmon.nome_atk1,startmon.nome_atk2,startmon.nv,name,city_count]
+                                                                                                                                                             ^ (bad-whitespace)
+C:310, 0: Exactly one space required after comma
+         listsave = [startmon.nome,startmon.vida,startmon.vidat,startmon.atk1,startmon.atk2,startmon.defesa,startmon.nome_atk1,startmon.nome_atk2,startmon.nv,name,city_count]
+                                                                                                                                                                  ^ (bad-whitespace)
+W:311, 0: Bad indentation. Found 9 spaces, expected 8 (bad-indentation)
+W:312, 0: Bad indentation. Found 13 spaces, expected 12 (bad-indentation)
+W:313, 0: Bad indentation. Found 17 spaces, expected 16 (bad-indentation)
+W:316, 0: Bad indentation. Found 9 spaces, expected 8 (bad-indentation)
+C:316, 0: Exactly one space required after comma
+         with open("save.json","w") as archive:
+                              ^ (bad-whitespace)
+W:317, 0: Bad indentation. Found 13 spaces, expected 12 (bad-indentation)
+C:317, 0: Exactly one space required after comma
+             json.dump(listsave,archive)
+                               ^ (bad-whitespace)
+W:318, 0: Bad indentation. Found 13 spaces, expected 12 (bad-indentation)
+W:319, 0: Bad indentation. Found 13 spaces, expected 12 (bad-indentation)
+W:149, 0: Anomalous backslash in string: '\_'. String constant might be missing an r prefix. (anomalous-backslash-in-string)
+W:149, 0: Anomalous backslash in string: '\ '. String constant might be missing an r prefix. (anomalous-backslash-in-string)
+W:149, 0: Anomalous backslash in string: '\/'. String constant might be missing an r prefix. (anomalous-backslash-in-string)
+W:149, 0: Anomalous backslash in string: '\ '. String constant might be missing an r prefix. (anomalous-backslash-in-string)
+W:149, 0: Anomalous backslash in string: '\/'. String constant might be missing an r prefix. (anomalous-backslash-in-string)
+W:149, 0: Anomalous backslash in string: '\ '. String constant might be missing an r prefix. (anomalous-backslash-in-string)
+W:149, 0: Anomalous backslash in string: '\ '. String constant might be missing an r prefix. (anomalous-backslash-in-string)
+W:149, 0: Anomalous backslash in string: '\ '. String constant might be missing an r prefix. (anomalous-backslash-in-string)
+W:149, 0: Anomalous backslash in string: '\ '. String constant might be missing an r prefix. (anomalous-backslash-in-string)
+W:149, 0: Anomalous backslash in string: '\/'. String constant might be missing an r prefix. (anomalous-backslash-in-string)
+W:149, 0: Anomalous backslash in string: '\ '. String constant might be missing an r prefix. (anomalous-backslash-in-string)
+W:149, 0: Anomalous backslash in string: '\ '. String constant might be missing an r prefix. (anomalous-backslash-in-string)
+W:149, 0: Anomalous backslash in string: '\/'. String constant might be missing an r prefix. (anomalous-backslash-in-string)
+W:149, 0: Anomalous backslash in string: '\`'. String constant might be missing an r prefix. (anomalous-backslash-in-string)
+W:149, 0: Anomalous backslash in string: '\/'. String constant might be missing an r prefix. (anomalous-backslash-in-string)
+W:149, 0: Anomalous backslash in string: '\ '. String constant might be missing an r prefix. (anomalous-backslash-in-string)
+W:149, 0: Anomalous backslash in string: '\ '. String constant might be missing an r prefix. (anomalous-backslash-in-string)
+W:149, 0: Anomalous backslash in string: '\ '. String constant might be missing an r prefix. (anomalous-backslash-in-string)
+W:149, 0: Anomalous backslash in string: '\_'. String constant might be missing an r prefix. (anomalous-backslash-in-string)
+W:149, 0: Anomalous backslash in string: '\ '. String constant might be missing an r prefix. (anomalous-backslash-in-string)
+W:149, 0: Anomalous backslash in string: '\_'. String constant might be missing an r prefix. (anomalous-backslash-in-string)
+W:149, 0: Anomalous backslash in string: '\ '. String constant might be missing an r prefix. (anomalous-backslash-in-string)
+W:149, 0: Anomalous backslash in string: '\/'. String constant might be missing an r prefix. (anomalous-backslash-in-string)
+W:149, 0: Anomalous backslash in string: '\ '. String constant might be missing an r prefix. (anomalous-backslash-in-string)
+W:149, 0: Anomalous backslash in string: '\/'. String constant might be missing an r prefix. (anomalous-backslash-in-string)
+W:149, 0: Anomalous backslash in string: '\_'. String constant might be missing an r prefix. (anomalous-backslash-in-string)
+W:149, 0: Anomalous backslash in string: '\ '. String constant might be missing an r prefix. (anomalous-backslash-in-string)
+W:149, 0: Anomalous backslash in string: '\ '. String constant might be missing an r prefix. (anomalous-backslash-in-string)
+W:149, 0: Anomalous backslash in string: '\L'. String constant might be missing an r prefix. (anomalous-backslash-in-string)
+W:149, 0: Anomalous backslash in string: '\ '. String constant might be missing an r prefix. (anomalous-backslash-in-string)
+W:149, 0: Anomalous backslash in string: '\/'. String constant might be missing an r prefix. (anomalous-backslash-in-string)
+W:149, 0: Anomalous backslash in string: '\ '. String constant might be missing an r prefix. (anomalous-backslash-in-string)
+W:149, 0: Anomalous backslash in string: '\ '. String constant might be missing an r prefix. (anomalous-backslash-in-string)
+W:149, 0: Anomalous backslash in string: '\ '. String constant might be missing an r prefix. (anomalous-backslash-in-string)
+W:149, 0: Anomalous backslash in string: '\/'. String constant might be missing an r prefix. (anomalous-backslash-in-string)
+W:149, 0: Anomalous backslash in string: '\ '. String constant might be missing an r prefix. (anomalous-backslash-in-string)
+W:149, 0: Anomalous backslash in string: '\/'. String constant might be missing an r prefix. (anomalous-backslash-in-string)
+W:149, 0: Anomalous backslash in string: '\ '. String constant might be missing an r prefix. (anomalous-backslash-in-string)
+W:149, 0: Anomalous backslash in string: '\/'. String constant might be missing an r prefix. (anomalous-backslash-in-string)
+W:149, 0: Anomalous backslash in string: '\ '. String constant might be missing an r prefix. (anomalous-backslash-in-string)
+W:149, 0: Anomalous backslash in string: '\/'. String constant might be missing an r prefix. (anomalous-backslash-in-string)
+W:149, 0: Anomalous backslash in string: '\ '. String constant might be missing an r prefix. (anomalous-backslash-in-string)
+W:149, 0: Anomalous backslash in string: '\L'. String constant might be missing an r prefix. (anomalous-backslash-in-string)
+W:149, 0: Anomalous backslash in string: '\ '. String constant might be missing an r prefix. (anomalous-backslash-in-string)
+W:149, 0: Anomalous backslash in string: '\/'. String constant might be missing an r prefix. (anomalous-backslash-in-string)
+W:149, 0: Anomalous backslash in string: '\ '. String constant might be missing an r prefix. (anomalous-backslash-in-string)
+W:149, 0: Anomalous backslash in string: '\/'. String constant might be missing an r prefix. (anomalous-backslash-in-string)
+W:149, 0: Anomalous backslash in string: '\ '. String constant might be missing an r prefix. (anomalous-backslash-in-string)
+W:149, 0: Anomalous backslash in string: '\ '. String constant might be missing an r prefix. (anomalous-backslash-in-string)
+W:149, 0: Anomalous backslash in string: '\_'. String constant might be missing an r prefix. (anomalous-backslash-in-string)
+W:149, 0: Anomalous backslash in string: '\ '. String constant might be missing an r prefix. (anomalous-backslash-in-string)
+W:149, 0: Anomalous backslash in string: '\_'. String constant might be missing an r prefix. (anomalous-backslash-in-string)
+W:149, 0: Anomalous backslash in string: '\ '. String constant might be missing an r prefix. (anomalous-backslash-in-string)
+W:149, 0: Anomalous backslash in string: '\_'. String constant might be missing an r prefix. (anomalous-backslash-in-string)
+W:149, 0: Anomalous backslash in string: '\/'. String constant might be missing an r prefix. (anomalous-backslash-in-string)
+W:149, 0: Anomalous backslash in string: '\_'. String constant might be missing an r prefix. (anomalous-backslash-in-string)
+W:149, 0: Anomalous backslash in string: '\ '. String constant might be missing an r prefix. (anomalous-backslash-in-string)
+W:149, 0: Anomalous backslash in string: '\ '. String constant might be missing an r prefix. (anomalous-backslash-in-string)
+W:149, 0: Anomalous backslash in string: '\ '. String constant might be missing an r prefix. (anomalous-backslash-in-string)
+W:149, 0: Anomalous backslash in string: '\_'. String constant might be missing an r prefix. (anomalous-backslash-in-string)
+W:149, 0: Anomalous backslash in string: '\ '. String constant might be missing an r prefix. (anomalous-backslash-in-string)
+W:149, 0: Anomalous backslash in string: '\_'. String constant might be missing an r prefix. (anomalous-backslash-in-string)
+W:149, 0: Anomalous backslash in string: '\ '. String constant might be missing an r prefix. (anomalous-backslash-in-string)
+W:149, 0: Anomalous backslash in string: '\ '. String constant might be missing an r prefix. (anomalous-backslash-in-string)
+W:149, 0: Anomalous backslash in string: '\_'. String constant might be missing an r prefix. (anomalous-backslash-in-string)
+W:149, 0: Anomalous backslash in string: '\ '. String constant might be missing an r prefix. (anomalous-backslash-in-string)
+W:149, 0: Anomalous backslash in string: '\_'. String constant might be missing an r prefix. (anomalous-backslash-in-string)
+W:149, 0: Anomalous backslash in string: '\ '. String constant might be missing an r prefix. (anomalous-backslash-in-string)
+W:149, 0: Anomalous backslash in string: '\_'. String constant might be missing an r prefix. (anomalous-backslash-in-string)
+W:149, 0: Anomalous backslash in string: '\ '. String constant might be missing an r prefix. (anomalous-backslash-in-string)
+W:149, 0: Anomalous backslash in string: '\_'. String constant might be missing an r prefix. (anomalous-backslash-in-string)
+W:149, 0: Anomalous backslash in string: '\ '. String constant might be missing an r prefix. (anomalous-backslash-in-string)
+W:149, 0: Anomalous backslash in string: '\_'. String constant might be missing an r prefix. (anomalous-backslash-in-string)
+W:149, 0: Anomalous backslash in string: '\ '. String constant might be missing an r prefix. (anomalous-backslash-in-string)
+W:149, 0: Anomalous backslash in string: '\_'. String constant might be missing an r prefix. (anomalous-backslash-in-string)
+W:149, 0: Anomalous backslash in string: '\ '. String constant might be missing an r prefix. (anomalous-backslash-in-string)
+W:149, 0: Anomalous backslash in string: '\/'. String constant might be missing an r prefix. (anomalous-backslash-in-string)
+W:149, 0: Anomalous backslash in string: '\/'. String constant might be missing an r prefix. (anomalous-backslash-in-string)
+W:149, 0: Anomalous backslash in string: '\/'. String constant might be missing an r prefix. (anomalous-backslash-in-string)
+W:149, 0: Anomalous backslash in string: '\/'. String constant might be missing an r prefix. (anomalous-backslash-in-string)
+W:149, 0: Anomalous backslash in string: '\ '. String constant might be missing an r prefix. (anomalous-backslash-in-string)
+W:149, 0: Anomalous backslash in string: '\ '. String constant might be missing an r prefix. (anomalous-backslash-in-string)
+W:149, 0: Anomalous backslash in string: '\/'. String constant might be missing an r prefix. (anomalous-backslash-in-string)
+W:149, 0: Anomalous backslash in string: '\/'. String constant might be missing an r prefix. (anomalous-backslash-in-string)
+W:149, 0: Anomalous backslash in string: '\/'. String constant might be missing an r prefix. (anomalous-backslash-in-string)
+W:149, 0: Anomalous backslash in string: '\/'. String constant might be missing an r prefix. (anomalous-backslash-in-string)
+W:149, 0: Anomalous backslash in string: '\/'. String constant might be missing an r prefix. (anomalous-backslash-in-string)
+W:149, 0: Anomalous backslash in string: '\/'. String constant might be missing an r prefix. (anomalous-backslash-in-string)
+W:149, 0: Anomalous backslash in string: '\/'. String constant might be missing an r prefix. (anomalous-backslash-in-string)
+W:149, 0: Anomalous backslash in string: '\/'. String constant might be missing an r prefix. (anomalous-backslash-in-string)
+W:149, 0: Anomalous backslash in string: '\/'. String constant might be missing an r prefix. (anomalous-backslash-in-string)
+W:149, 0: Anomalous backslash in string: '\ '. String constant might be missing an r prefix. (anomalous-backslash-in-string)
+W:149, 0: Anomalous backslash in string: '\_'. String constant might be missing an r prefix. (anomalous-backslash-in-string)
+W:149, 0: Anomalous backslash in string: '\ '. String constant might be missing an r prefix. (anomalous-backslash-in-string)
+W:149, 0: Anomalous backslash in string: '\/'. String constant might be missing an r prefix. (anomalous-backslash-in-string)
+C: 10, 0: Multiple imports on one line (sys, time, random) (multiple-imports)
+C: 11, 0: Invalid constant name "nv" (invalid-name)
+C: 12, 0: Invalid constant name "expfill" (invalid-name)
+C: 13, 0: Invalid constant name "exp" (invalid-name)
+C: 14, 0: Invalid constant name "nvevo1" (invalid-name)
+C: 15, 0: Invalid constant name "nvevo2" (invalid-name)
+C: 18, 0: Invalid class name "pokemon" (invalid-name)
+C: 28, 8: Invalid attribute name "nv" (invalid-name)
+C: 18, 0: Missing class docstring (missing-docstring)
+R: 18, 0: Too many instance attributes (9/7) (too-many-instance-attributes)
+W: 19,75: Redefining name 'nv' from outer scope (line 11) (redefined-outer-name)
+R: 19, 4: Too many arguments (10/5) (too-many-arguments)
+R: 18, 0: Too few public methods (0/2) (too-few-public-methods)
+C: 32, 0: Invalid constant name "mon" (invalid-name)
+C: 47, 0: Invalid constant name "typing_speed" (invalid-name)
+C: 48, 0: Invalid argument name "t" (invalid-name)
+C: 48, 0: Missing function docstring (missing-docstring)
+C: 49, 8: Invalid variable name "l" (invalid-name)
+C: 54, 0: Invalid constant name "quick_speed" (invalid-name)
+C: 55, 0: Invalid argument name "t" (invalid-name)
+C: 55, 0: Missing function docstring (missing-docstring)
+C: 56, 8: Invalid variable name "l" (invalid-name)
+C: 61, 0: Invalid constant name "insperdex_list" (invalid-name)
+W: 70, 4: Redefining name 'x' from outer scope (line 225) (redefined-outer-name)
+C: 63, 0: Invalid argument name "p1" (invalid-name)
+C: 63, 0: Invalid argument name "p2" (invalid-name)
+C: 63, 0: Missing function docstring (missing-docstring)
+C: 70, 4: Invalid variable name "x" (invalid-name)
+C: 86,16: Invalid variable name "a" (invalid-name)
+C: 87,16: Invalid variable name "x" (invalid-name)
+C:105,12: Invalid variable name "ATQ" (invalid-name)
+C:106,12: Invalid variable name "NOME" (invalid-name)
+C:108,12: Invalid variable name "ATQ" (invalid-name)
+C:109,12: Invalid variable name "NOME" (invalid-name)
+C:124,12: Invalid variable name "a" (invalid-name)
+C:125,12: Invalid variable name "x" (invalid-name)
+C:132,12: Invalid variable name "a" (invalid-name)
+C:133,12: Invalid variable name "x" (invalid-name)
+R: 63, 0: Too many branches (14/12) (too-many-branches)
+R: 63, 0: Too many statements (66/50) (too-many-statements)
+C:139, 0: Missing function docstring (missing-docstring)
+C:147, 0: Invalid constant name "startmon" (invalid-name)
+C:161, 0: Invalid constant name "primeirapergunta" (invalid-name)
+C:164, 8: Invalid constant name "listsave" (invalid-name)
+C:174, 8: Invalid constant name "name" (invalid-name)
+C:175, 8: Invalid constant name "city_count" (invalid-name)
+C:181, 8: Invalid constant name "nummon" (invalid-name)
+C:186, 4: Invalid constant name "city_count" (invalid-name)
+C:187, 4: Invalid constant name "nummon" (invalid-name)
+C:190, 4: Invalid constant name "name" (invalid-name)
+E:192, 8: function already defined line 48 (function-redefined)
+C:192, 8: Invalid argument name "a" (invalid-name)
+C:192, 8: Missing function docstring (missing-docstring)
+C:194, 8: Invalid constant name "nummon" (invalid-name)
+C:195, 8: Invalid constant name "nomemon" (invalid-name)
+C:196, 8: Invalid constant name "startmon" (invalid-name)
+C:200, 0: Invalid constant name "opt_jgl" (invalid-name)
+C:203, 4: Invalid constant name "ans" (invalid-name)
+C:206,12: Invalid constant name "nomemon" (invalid-name)
+C:210,12: Invalid constant name "startmon" (invalid-name)
+C:214,12: Invalid constant name "nummon" (invalid-name)
+C:221,12: Invalid constant name "d" (invalid-name)
+C:225,12: Invalid constant name "x" (invalid-name)
+C:227,16: Invalid constant name "cmd" (invalid-name)
+C:241,20: Invalid constant name "d" (invalid-name)
+C:244,24: Invalid constant name "city_count" (invalid-name)
+C:247,24: Invalid constant name "d" (invalid-name)
+C:249,24: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
+C:253,24: Invalid constant name "r" (invalid-name)
+C:255,28: Invalid constant name "adver" (invalid-name)
+C:256,28: Invalid constant name "bat" (invalid-name)
+C:259,32: Invalid constant name "exp" (invalid-name)
+C:262,36: Invalid constant name "exp" (invalid-name)
+C:263,36: Invalid constant name "expfill" (invalid-name)
+C:270,40: Invalid constant name "nome_antigo" (invalid-name)
+C:279,40: Invalid constant name "nome_antigo" (invalid-name)
+C:291,20: Invalid constant name "x" (invalid-name)
+C:296,20: Invalid constant name "listsave" (invalid-name)
+C:298,24: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
+C:310, 9: Invalid constant name "listsave" (invalid-name)
+C:312,13: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
+R:263,36: Redefinition of expfill type from int to float (redefined-variable-type)
+
+
+Report
+======
+261 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |1          |=          |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |1      |0          |+1.00      |0.00        |100.00   |
++---------+-------+-----------+-----------+------------+---------+
+|method   |1      |0          |+1.00      |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|function |5      |11         |-6.00      |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |278    |86.34 |401      |-123.00    |
++----------+-------+------+---------+-----------+
+|docstring |5      |1.55  |20       |-15.00     |
++----------+-------+------+---------+-----------+
+|comment   |2      |0.62  |0        |+2.00      |
++----------+-------+------+---------+-----------+
+|empty     |37     |11.49 |103      |-66.00     |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |0        |=          |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |0.000    |=          |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |298    |443      |-145.00    |
++-----------+-------+---------+-----------+
+|refactor   |6      |10       |-4.00      |
++-----------+-------+---------+-----------+
+|warning    |108    |435      |-327.00    |
++-----------+-------+---------+-----------+
+|error      |1      |1        |=          |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++------------------------------+------------+
+|message id                    |occurrences |
++==============================+============+
+|bad-whitespace                |205         |
++------------------------------+------------+
+|anomalous-backslash-in-string |95          |
++------------------------------+------------+
+|invalid-name                  |63          |
++------------------------------+------------+
+|line-too-long                 |13          |
++------------------------------+------------+
+|bad-indentation               |11          |
++------------------------------+------------+
+|superfluous-parens            |7           |
++------------------------------+------------+
+|missing-docstring             |6           |
++------------------------------+------------+
+|consider-using-enumerate      |3           |
++------------------------------+------------+
+|redefined-outer-name          |2           |
++------------------------------+------------+
+|too-many-statements           |1           |
++------------------------------+------------+
+|too-many-instance-attributes  |1           |
++------------------------------+------------+
+|too-many-branches             |1           |
++------------------------------+------------+
+|too-many-arguments            |1           |
++------------------------------+------------+
+|too-few-public-methods        |1           |
++------------------------------+------------+
+|redefined-variable-type       |1           |
++------------------------------+------------+
+|multiple-imports              |1           |
++------------------------------+------------+
+|function-redefined            |1           |
++------------------------------+------------+
+
+
+
+Global evaluation
+-----------------
+Your code has been rated at -5.98/10 (previous run: -13.62/10, +7.65)
+
